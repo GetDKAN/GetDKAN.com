@@ -3,7 +3,7 @@
  * In airspace, it is called style.css
  * However, style.css now holds additional styles for this jekyll port. (Not written by ThemeFisher)
  * The original style.css is now called airspace.css
- * 
+ *
  */
 
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
@@ -16,6 +16,7 @@
 body {
   font-family: 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
+  background-color: #f7f7f7;
 }
 h1,
 h2,
@@ -30,7 +31,7 @@ h2 {
   font-weight: 400;
 }
 h3 {
-  font-size: 28px;
+  font-size: 22px;
   font-weight: 300;
 }
 p {
@@ -53,11 +54,11 @@ a:active {
 }
 .section-title h2 {
   text-transform: uppercase;
-  font-size: 28px;
+  font-size: 40px;
   font-weight: 600;
+  padding: 0 0 10px 0;
 }
 .section-title p {
-  font-family: 'Volkhov', serif;
   font-style: italic;
   color: #666;
 }
@@ -65,7 +66,7 @@ a:active {
 	Header Start
 --*/
 header {
-  background: #fff;
+  background: #f7f7f7;
   padding: 20px 0;
 }
 header .navbar {
@@ -97,11 +98,10 @@ font header .navbar-default .navbar-nav li a:hover {
 	Slider Start
 --*/
 #slider {
-  background: url("../img/slider-bg.jpg") no-repeat;
   background-size: cover;
   background-attachment: fixed;
   background-position: 10% 0%;
-  padding: 200px 0 280px 0;
+  padding: 75px 0 75px 0;
   position: relative;
 }
 #slider:before {
@@ -113,27 +113,35 @@ font header .navbar-default .navbar-nav li a:hover {
   right: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to left, #8b86a3, #322e40);
   opacity: 0.8;
 }
 #slider .block {
-  color: #E3E3E4;
+  color: #0c76bc;
 }
 #slider .block h1 {
-  font-family: 'Roboto', sans-serif;
+  font-family: Open Sans,sans-serif;
   font-weight: 100;
-  font-size: 45px;
+  font-size: 40px;
   line-height: 60px;
-  letter-spacing: 10px;
+  letter-spacing: 3px;
   padding-bottom: 45px;
+  text-align: center;
 }
 #slider .block p {
-  font-size: 23px;
-  line-height: 40px;
-  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  line-height: 35px;
   font-weight: 300;
   letter-spacing: 3px;
+  color: #333;
+  text-align: center;
+  padding: 0 150px;
 }
+.figure--container {
+  text-align: center;
+}
+#demo-wrap img {
+}
+
 /*--
 	wrapper Start
 --*/
@@ -159,31 +167,171 @@ font header .navbar-default .navbar-nav li a:hover {
 #intro .section-title p {
   padding-top: 20px;
 }
+
+#community {
+  background-color: rgba(19, 127, 197, 0.75);
+  color: #FFF;
+  padding: 50px 0;
+}
+#community .section-title h2 {
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 300;
+  padding: 0 0 60px 0;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+#community .section-title {
+  margin-bottom: 10px;
+}
+#community i.fa {
+  font-size: 90px;
+}
+#community p {
+  color: #FFF;
+  padding: 10px 0;
+}
+#community a {
+  color: #fff;
+  font-weight: 900;
+}
+#community #gitter-logo {
+  width: 65px;
+}
+#community .btn-primary {
+    color: #fff;
+    background-color: rgb(12, 118, 188);
+    border-color: #8baaca;
+    margin-top: 20px;
+}
+#service .container, #community .container {
+  padding: 0 100px;
+}
+#count .container {
+  padding: 40px 200px 60px 200px;
+}
+#count h2,
+#portfolio h2,
+#service h2 {
+    color: #444;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    padding: 20px;
+    font-size: 40px;
+}
+#portfolio h3.section-subheading {
+  padding-bottom: 30px;
+}
+#count h3.section-subheading {
+  padding-bottom: 10px;
+}
+#contact-form h1 {
+  color: #444;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  padding-bottom: 10px;
+}
+#contact-form p {
+  padding-bottom: 40px;
+}
+footer .footer-manu ul.social-icons {
+  padding-top: 20px;
+}
+body .post-area a:link, body .post-area a:visited {
+    font-size: 30px;
+    color: #0c76bc;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+.post #intro {
+  padding: 40px 0;
+}
+.post .block {
+  padding: 10px 140px;
+}
+.post-date {
+  padding: 10px 0;
+  font-weight: 300;
+  color: #737373;
+}
+body .post-area {
+  padding:40px 180px;
+  background-color: inherit;
+}
+#contact-form {
+    padding: 10px 175px;
+    overflow-x: hidden;
+}
+#service .col-sm-6 {
+  padding-top: 30px;
+}
+#portfolio {
+  padding: 10px;
+}
+a.portfolio-link {
+  display: block;
+  height: 165px;
+  overflow: hidden;
+}
+h3.section-subheading  {
+  line-height: 40px;
+}
+#count h4 {
+  font-size: 70px;
+}
+#count .section-title {
+  margin-bottom: 40px;
+}
+.bg-light-gray {
+  background-color: #EAEAEA;
+}
 /*--
 	service Start
 --*/
 #service {
   text-align: center;
-  padding: 90px 0;
+  padding: 40px 0;
 }
 #service .service-item {
   padding-bottom: 30px;
 }
 #service .service-item i {
   font-size: 60px;
-  color: #4A4656;
+  color: #444;
 }
 #service .service-item h4 {
   padding-top: 20px;
   margin: 0;
-  color: #666;
+  color: #444;
+}
+#service .section-title p {
+  color: #444;
 }
 #service .service-item p {
-  color: #888;
+  color: #444;
   padding-top: 10px;
   margin: 0;
   font-size: 14px;
   line-height: 1.8;
+}
+
+@media (min-width: 767px) {
+#portfolio .portfolio-item {
+    margin: 0 0 30px;
+}
+}
+#portfolio .portfolio-item {
+    margin: 0 0 15px;
+    right: 0;
+}
+#portfolio .portfolio-item .portfolio-caption {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    text-align: center;
+    padding: 25px;
+    border-top: 1px solid #999;
 }
 /*--
 	call-to-action Start
