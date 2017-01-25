@@ -898,6 +898,16 @@ h3.section-subheading  {
   display: inline-block;
   padding: 40px 0px;
 }
+.feature-long {
+  text-align: left;
+}
+.feature-long h3 {
+  font-weight: 600;
+padding: 0 0 25px 0;
+font-size: 25px;
+line-height: 35px;
+margin-top: 0px;
+}
 /*---------------------------------------------
 					Contact Close
 -----------------------------------------------*/
