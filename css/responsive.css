@@ -165,6 +165,15 @@ px      68    160    252    */
   #slider .block p {
     padding: 0;
   }
+  #count .container {
+    padding: 0 50px;
+    text-align: center;
+  }
+  .post .block,
+  body .post-area {
+    padding: 25px;
+  }
+
 
   .heading {
     padding-left: 0px;
