@@ -227,7 +227,9 @@ img.partner-logo {
   width: 150px;
   max-height: 200px;
 }
-
+#partners .section-title {
+  margin:0;
+}
 #partners h2,
 #updates h2,
 #count h2,
