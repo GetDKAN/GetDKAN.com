@@ -205,12 +205,31 @@ font header .navbar-default .navbar-nav li a:hover {
     border-color: #8baaca;
     margin-top: 20px;
 }
+#updates .container,
+#partners .container,
 #service .container, #community .container {
   padding: 0 100px;
 }
 #count .container {
   padding: 40px 200px 60px 200px;
 }
+#updates .short-blog-list .post-area {
+  padding:0;
+}
+#updates .short-blog-list .post-area a {
+  font-size: 15px;
+}
+#updates .short-blog-list .post-date {
+  font-size: 12px;
+}
+
+img.partner-logo {
+  width: 150px;
+  max-height: 200px;
+}
+
+#partners h2,
+#updates h2,
 #count h2,
 #portfolio h2,
 #service h2 {
@@ -220,6 +239,10 @@ font header .navbar-default .navbar-nav li a:hover {
     text-transform: uppercase;
     padding: 20px;
     font-size: 40px;
+    text-align: center;
+}
+section#partners {
+  background-color: #fff;
 }
 #portfolio h3.section-subheading {
   padding-bottom: 30px;
@@ -909,7 +932,8 @@ line-height: 35px;
 margin-top: 0px;
 }
 .feature-img-holder {
-  box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important
+  box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+  margin-right: 25px;
 }
 .feature-img-holder p {
   text-align: center;
@@ -922,6 +946,9 @@ margin-top: 0px;
 .feature-img-holder img {
   padding: 5px;
   background-color: #FFF;
+}
+.row-bump {
+  padding: 35px 0;
 }
 
 
