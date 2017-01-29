@@ -15,11 +15,11 @@ DKAN sites are designed to reduce barriers to publishing and managing data. Gett
 
 With so much data in a single place, DKAN sites have a number of tools to organize the information for citizens to easily and intuitively find what they are looking for. Topics catch site visitors attention right from the home page. As with most DKAN features, Topics are built to provide a crisp, engaging user experience that is adaptable for customization. Either font icons or images can be used, these graphics can be customized in appearance and color to fit the individual look and feel of any brand. The default DKAN icon font set includes over 100 icons, and new icon font sets can be added anytime for a broad range of options.
 
-<a href="/img/uploads/2016/04/topics-image-01.png"><img class="alignnone size-full wp-image-3753" src="/img/uploads/2016/04/topics-image-01.png" alt="topics image 01" width="1179" height="730"></a>
+<a href="{{site.baseurl}}/img/uploads/2016/04/topics-image-01.png"><img class="alignnone size-full wp-image-3753" src="/img/uploads/2016/04/topics-image-01.png" alt="topics image 01" width="1179" height="730"></a>
 
 Topics are linked to a search page with results filtered for all datasets that fall into a selected topic. This makes is easy for site visitors to use DKAN’s faceted search, turning filters on and off for the best results.
 
-<a href="/img/uploads/2016/04/topics-image-02.png"><img class="alignnone wp-image-3754" src="/img/uploads/2016/04/topics-image-02.png" alt="topics image 02" width="656" height="556"></a>
+<a href="{{site.baseurl}}/img/uploads/2016/04/topics-image-02.png"><img class="alignnone wp-image-3754" src="/img/uploads/2016/04/topics-image-02.png" alt="topics image 02" width="656" height="556"></a>
 
 From the data management perspective, Topics are preset, official categories that guide site visitors to areas of the site containing robust datasets and reflect prime areas of interest. Organizations are able to effectively connect citizens with the right information in the right time.
 
