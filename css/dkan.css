@@ -288,12 +288,7 @@ body .post-area a:link, body .post-area a:visited {
   color: #737373;
 }
 body .post-area {
-  padding:40px 180px;
   background-color: inherit;
-}
-#contact-form {
-    padding: 10px 175px;
-    overflow-x: hidden;
 }
 #service .col-sm-6 {
   padding-top: 30px;
