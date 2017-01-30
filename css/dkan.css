@@ -210,7 +210,11 @@ font header .navbar-default .navbar-nav li a:hover {
 #contact-form .container,
 #blog-index .container,
 #service .container, #community .container {
-  padding: 0 100px;
+    width: 90rem;
+    max-width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
 }
 #count .container {
   padding: 40px 200px 60px 200px;
