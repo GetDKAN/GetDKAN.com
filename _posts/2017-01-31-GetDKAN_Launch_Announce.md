@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-author: "Andrew Hoppin
+author: "Andrew Hoppin"
 title: "Welcome to the new DKAN Community Portal"
 ---
 
