@@ -207,6 +207,8 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 #updates .container,
 #partners .container,
+#contact-form .container,
+#blog-index .container,
 #service .container, #community .container {
   padding: 0 100px;
 }
