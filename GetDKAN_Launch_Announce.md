@@ -1,5 +1,6 @@
 ---
 published: false
+layout: post
 ---
 ## Welcome to the new DKAN Community Portal
 
