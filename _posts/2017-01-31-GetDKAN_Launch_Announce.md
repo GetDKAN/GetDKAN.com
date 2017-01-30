@@ -1,6 +1,7 @@
 ---
 published: true
 layout: post
+author: "Andrew Hoppin"
 ---
 ## Welcome to the new DKAN Community Portal
 
