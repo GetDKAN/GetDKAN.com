@@ -12,15 +12,52 @@ permalink: /contact/
       <p>Contact Granicus to talk to a representative.</p>
       <div class="col-md-4 col-sm-12">
         <div class="block">
-          <form>
+          <form method="post" name="NuCivic_US_contact_us" action="https://s2338.t.eloqua.com/e/f2" onsubmit="setTimeout(function(){if(document.querySelector){var s=document.querySelector('form#form2262 input[type=submit]');if(s){s.disabled=true;}}},100);return true;" id="form2262" class="elq-form" >
+            <input value="NuCivic_US_contact_us" type="hidden" name="elqFormName"  />
+            <input value="2338" type="hidden" name="elqSiteId"  />
+            <input name="elqCampaignId" type="hidden"  />
+            <input type="hidden" name="lastSFDCcampaignID" value="70100000000TeKXAA0"  />
+            <input type="hidden" name="leadsourcemostrecent1" value="Web - Inquiry"  />
+            <input type="hidden" name="cname" value="NuCivic_Website_GN_All_Contact Us"  />
+            <input type="hidden" name="OwnerNuCivic" value="1"  />
+            <input type="hidden" name="BusinessUnit1" value="Marketing"  />
             <div class="form-group">
-              <input type="text" class="form-control" placeholder="Your Name">
+              <input id="field0" type="text" class="form-control" placeholder="Email Address" name="emailAddress">
             </div>
             <div class="form-group">
-              <input type="text" class="form-control" placeholder="Email Address">
+              <input id="field1" type="text" class="form-control" placeholder="First Name" name="firstName">
+            </div>            
+            <div class="form-group">
+              <input id="field2" type="text" class="form-control" placeholder="Last Name" name="lastName">
             </div>
             <div class="form-group">
-              <input type="text" class="form-control" placeholder="Subject">
+              <input id="field3" type="text" class="form-control" placeholder="Business Phone" name="businessPhone">
+            </div>
+            <div class="form-group">
+              <input id="field4" type="text" class="form-control" placeholder="Organization" name="company">
+            </div>
+            <div class="form-group">
+              <input id="field5" type="text" class="form-control" placeholder="title" name="title">
+            </div>
+            <div class="form-group">
+              <label for="field6">I am inquiring about one of the following:</label>
+              <select id="field6" name="dropdownMenu">
+                <option value="--Please Select--" >
+                  --Please Select--
+                </option>
+                <option value="GovDelivery Products & Services" >
+                  GovDelivery Products &amp; Services
+                </option>
+                <option value="Schedule a Demo" >
+                  Schedule a Demo
+                </option>
+                <option value="Cutomer Support or Login help" >
+                  Customer Support or Login help
+                </option>
+                <option value="Subscriber inquiry" >
+                  Subscriber inquiry
+                </option>
+              </select>            
             </div>
           </form>
         </div>
@@ -29,7 +66,7 @@ permalink: /contact/
         <div class="block">
           <form>
             <div class="form-group-2">
-              <textarea class="form-control" rows="3" placeholder="Your Message"></textarea>
+              <textarea id="field7" name="description" class="form-control" rows="3" placeholder="Description of Inquiry"></textarea>
             </div>
             <button class="btn btn-default" type="submit">Send Message</button>
           </form>
