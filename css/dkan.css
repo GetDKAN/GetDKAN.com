@@ -163,8 +163,8 @@ font header .navbar-default .navbar-nav li a:hover {
   width: 100%;
 }
 #granicus-logo {
-  padding: 10px;
-  display: flex;
+  padding: 10px 0;
+  width: 400px;
 }
 .section-subheading {
  line-height: 30px;
