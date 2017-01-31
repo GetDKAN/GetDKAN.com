@@ -166,7 +166,7 @@ permalink: /
     <div class="row">
       <div class="section-title"><h2>Recent News</h2></div>
       <div class="short-blog-list">
-        {% for post in site.posts %}
+        {% for post in site.posts limit: 4 %}
         <div class="post-area">
           <div class="post-creds"><span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span> | <span class="post-author">{{ post.author }}</span></div>
           <div class="post-title"><a href="{{ post.url | prepend: site.baseurl }}" class="bold">{{ post.title }}</a></div>
