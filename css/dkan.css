@@ -162,6 +162,13 @@ font header .navbar-default .navbar-nav li a:hover {
   padding-left: 40px;
   width: 100%;
 }
+#granicus-logo {
+  padding: 10px;
+  display: flex;
+}
+.section-subheading {
+ line-height: 30px;
+}
 #intro .section-title {
   margin-bottom: 0px;
 }
@@ -228,10 +235,17 @@ font header .navbar-default .navbar-nav li a:hover {
 #updates .short-blog-list .post-date {
   font-size: 12px;
 }
-
+.service-item-img-wrap {
+    height: 45px;
+}
+#contact-link { 
+    background-color: inherit;
+    padding: 6px 11px !important;
+    margin: 4px 15px;
+    border-color: #333;
+}
 img.partner-logo {
-  width: 150px;
-  max-height: 200px;
+  height: 35px;
 }
 #partners .section-title {
   margin:0;
@@ -320,7 +334,7 @@ h3.section-subheading  {
   text-align: center;
   padding: 40px 0;
 }
-#service .service-item {
+#partners .service-item {
   padding-bottom: 30px;
 }
 #service .service-item i {
