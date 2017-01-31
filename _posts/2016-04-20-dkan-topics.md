@@ -2,7 +2,7 @@
 layout: post
 title: "DKAN Topics feature focus data and reflect citizen interests"
 author: "Dawn McDougall"
-meta: "DKAN, NuCivic, Open data, Open source"
+meta: "DKAN, Open data, Open source"
 ---
 
 Read our [full release notes](https://github.com/NuCivic/dkan/releases/tag/7.x-1.12) on our [public GitHub repo](https://github.com/NuCivic/dkan) and learn about other new features in the latest release, including [DKAN Workflow](http://www.nucivic.com/new-feature-alert-dkan-workflow/) and [DKAN Datastore enhancements](http://www.nucivic.com/dkan-datastore-enhancement-bigger-files-painless-import/).
