@@ -5,9 +5,7 @@ author: "Andrew Hoppin"
 title: "Welcome to the new DKAN Community Portal"
 ---
 
-## Welcome to the new DKAN Community Portal
-
-Today, contemparanous with the launch of the new Granicus, following the recent merger between GovDelivery Inc. and the legacy Granicus Inc., the DKAN team is proud to announce the launch of GetDKAN.com, a new community portal to better support the burgeoning open source DKAN community worldwide.  
+Today, contemporaneous with the launch of the new Granicus, following the recent merger between GovDelivery Inc. and the legacy Granicus Inc., the DKAN team is proud to announce the launch of GetDKAN.com, a new community portal to better support the burgeoning open source DKAN community worldwide.  
 
 A fully open source project led by Granicus, DKAN is now used by governments in more than [30 countries worldwide](https://github.com/NuCivic/dkan-sites/).
 

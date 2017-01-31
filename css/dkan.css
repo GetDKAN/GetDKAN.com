@@ -227,18 +227,38 @@ font header .navbar-default .navbar-nav li a:hover {
   padding: 40px 200px 60px 200px;
 }
 #updates .short-blog-list .post-area {
-  padding:0;
+  padding: 25px 0;
 }
-#updates .short-blog-list .post-area a {
-  font-size: 15px;
+#updates .short-blog-list .post-area a.post-more {
+  color: #0c76bc;
+  font-size: 20px;
+  font-weight: 900;
 }
-#updates .short-blog-list .post-date {
-  font-size: 12px;
+#updates .section-title {
+  margin-bottom: 30px;
+}
+#updates .short-blog-list .post-date,
+#updates .short-blog-list .post-creds {
+  font-size: 14px;
+  color: #777;
+  font-weight: 900;
+}
+body #updates .post-title a,
+body #updates .post-title a:link {
+    font-size: 30px;
+    color: #0c76bc;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    padding: 20px 0;
+    display: block;
+}
+#updates .short-blog-list .post-preview {
+  font-size: 19px;
 }
 .service-item-img-wrap {
     height: 45px;
 }
-#contact-link { 
+#contact-link {
     background-color: inherit;
     padding: 6px 11px !important;
     margin: 4px 15px;
@@ -283,12 +303,6 @@ section#partners {
 }
 footer .footer-manu ul.social-icons {
   padding-top: 20px;
-}
-body .post-area a:link, body .post-area a:visited {
-    font-size: 30px;
-    color: #0c76bc;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
 }
 .post #intro {
   padding: 40px 0;

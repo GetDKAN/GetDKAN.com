@@ -54,7 +54,7 @@ permalink: /
                       <img src="{{ site.baseurl }}/img/gitter-logo.svg" alt="Gitter logo" id="gitter-logo" />
                       <h4 class="text-capitalize">Gitter</h4>
                       <p>
-                        Join our developer team on Gitter. Community members are often on hand to solve problems and answer questions. <br/> <a href="https://gitter.im/NuCivic/dkan" class="btn btn-primary btn-lg" role="button">Join us on Gitter</a>
+                        Join our developer team on Gitter. Community members are often on hand to answer questions. <br/> <a href="https://gitter.im/NuCivic/dkan" class="btn btn-primary btn-lg" role="button">Join us on Gitter</a>
                       </p>
                   </div>
               </div>
@@ -168,11 +168,9 @@ permalink: /
       <div class="short-blog-list">
         {% for post in site.posts %}
         <div class="post-area">
-          <a href="{{ post.url | prepend: site.baseurl }}" class="bold">{{ post.title }}</a>
-          <p class="post-date">{{ post.date | date_to_long_string }}</p>
-          <p>
-            {{ post.content | strip_html | truncatewords: 10 }}
-          </p>
+          <div class="post-creds"><span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span> | <span class="post-author">{{ post.author }}</span></div>
+          <div class="post-title"><a href="{{ post.url | prepend: site.baseurl }}" class="bold">{{ post.title }}</a></div>
+          <div class="post-preview">{{ post.content | strip_html | truncatewords: 25 }} <a href="{{ post.url | prepend: site.baseurl }}" class="post-more">Read More</a></div>
         </div>
         {% endfor %}
       </div>
