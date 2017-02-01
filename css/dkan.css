@@ -231,8 +231,13 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 #updates .short-blog-list .post-area a.post-more {
   color: #0c76bc;
-  font-size: 20px;
   font-weight: 900;
+}
+
+body #updates .post-title a:hover,
+#updates .short-blog-list .post-area a.post-more:hover {
+  color: #8aaec5;
+  color: #2a6496;
 }
 #updates .section-title {
   margin-bottom: 30px;
@@ -241,7 +246,6 @@ font header .navbar-default .navbar-nav li a:hover {
 #updates .short-blog-list .post-creds {
   font-size: 14px;
   color: #777;
-  font-weight: 900;
 }
 body #updates .post-title a,
 body #updates .post-title a:link {
@@ -253,7 +257,7 @@ body #updates .post-title a:link {
     display: block;
 }
 #updates .short-blog-list .post-preview {
-  font-size: 19px;
+  font-size: 16px;
 }
 .service-item-img-wrap {
     height: 45px;
