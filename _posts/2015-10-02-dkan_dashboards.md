@@ -4,7 +4,6 @@ title: "DKAN 1.9 Features “Drag and Drop” Data Dashboards"
 author: "Aaron Couch"
 meta: "DKAN Launch, Featured DKAN"
 ---
-
 NuCivic is proud to announce the release of DKAN version 1.9. Developers can grab the latest code on [Github]. Open Data enthusiasts can spin up a version for themselves for free at our hosting partners [Acquia] and [Pantheon].
 
 Drag and Drop Layouts
