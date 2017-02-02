@@ -1,11 +1,4 @@
 ---
-published: false
----
----
-published: true
----
-
----
 layout: post
 title: "DKAN 1.9 Features “Drag and Drop” Data Dashboards"
 author: "Aaron Couch"
