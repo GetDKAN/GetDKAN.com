@@ -26,12 +26,22 @@ Our drag-and-drop layouts are described above. We also have the option of adding
 Native Visualization Tools
 --------------------------
 
-DKAN 1.9 includes the ability to create graphs, charts, and maps with your portal’s data using our native visualization tools. These tools include a charts and graphs wizard that makes it easy to dig into your catalog’s data and exhibit the latests graphs, trends, and available resources. The wizard takes users step by step through selecting, querying, and visualizing data: <a href="http://www.nucivic.com/wp-content/uploads/2015/10/image06.png">&lt;
+DKAN 1.9 includes the ability to create graphs, charts, and maps with your portal’s data using our native visualization tools. These tools include a charts and graphs wizard that makes it easy to dig into your catalog’s data and exhibit the latests graphs, trends, and available resources. The wizard takes users step by step through selecting, querying, and visualizing data: 
 
-  [Github]: https://github.com/NuCivic/dkan
-  [Acquia]: https://insight.acquia.com/free?distro=dkantestdrive
-  [Pantheon]: https://dashboard.getpantheon.com/products/dkan/spinup
-  [Panels]: https://www.drupal.org/project/panels
-  [<img src="http://www.nucivic.com/wp-content/uploads/2015/10/image04-1024x651.png" alt="image04" class="alignnone wp-image-3329" width="705" height="448" />]: http://www.nucivic.com/wp-content/uploads/2015/10/image04.png
-  [<img src="http://www.nucivic.com/wp-content/uploads/2015/10/image05-1024x651.png" alt="image05" class="alignnone wp-image-3330" width="703" height="447" />]: http://www.nucivic.com/wp-content/uploads/2015/10/image05.png
-  [our documentation]: http://docs.getdkan.com/dkan-documentation/dkan-users-guide/customize-dkan-pages-layouts-and-components-using-panels
+[<img src="http://www.nucivic.com/wp-content/uploads/2015/10/image06.png" alt="image06" class="alignnone wp-image-3331" width="710" height="393" />] We’ve also added a choropleth mapping tool: [<img src="http://www.nucivic.com/wp-content/uploads/2015/10/image02-1024x757.png" alt="image02" class="alignnone wp-image-3332" width="668" height="494" />]
+
+Integrating 3rd Party Visualization Tools
+-----------------------------------------
+
+With DKAN 1.9 it’s easy to create data dashboards with graphics, maps, and images created with third-party tools as well. External visualizations can be added directly into dashboards and data stories with a few clicks, and then placed in the desired region on a data dashboard.
+
+Many Other Feature Enhancements, Bug Fixes, and More
+----------------------------------------------------
+
+DKAN 1.9 was a big release for us. Some other notable features include an integration with [Font Your Face], which along with our [Colorizer] integration and drag and drop interface described above, lets non-technical users control much of the layout and look of the site. See our full [release notes] for more details.
+
+  [<img src="http://www.nucivic.com/wp-content/uploads/2015/10/image06.png" alt="image06" class="alignnone wp-image-3331" width="710" height="393" />]: http://www.nucivic.com/wp-content/uploads/2015/10/image06.png
+  [<img src="http://www.nucivic.com/wp-content/uploads/2015/10/image02-1024x757.png" alt="image02" class="alignnone wp-image-3332" width="668" height="494" />]: http://www.nucivic.com/wp-content/uploads/2015/10/image02.png
+  [Font Your Face]: https://www.drupal.org/project/fontyourface
+  [Colorizer]: http://docs.getdkan.com/dkan-documentation/dkan-users/custom-appearance#Color_scheme
+  [release notes]: https://github.com/NuCivic/dkan/releases/tag/7.x-1.9
