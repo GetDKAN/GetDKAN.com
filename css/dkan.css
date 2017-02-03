@@ -164,6 +164,7 @@ font header .navbar-default .navbar-nav li a:hover {
 #granicus-logo {
   padding: 10px 0;
   width: 400px;
+  max-width: 100%;
 }
 .section-subheading {
  line-height: 30px;
@@ -234,6 +235,7 @@ font header .navbar-default .navbar-nav li a:hover {
 #updates .short-blog-list .post-area a.post-more {
   color: #0c76bc;
   font-weight: 900;
+  font-size: 20px;
 }
 
 body #updates .post-title a:hover,

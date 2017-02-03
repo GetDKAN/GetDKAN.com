@@ -170,17 +170,18 @@ permalink: /
 <section id="updates">
   <div class="container">
     <div class="row">
-      <div class="section-title"><h2>Recent News</h2></div>
-      <div class="short-blog-list">
-        {% for post in site.posts limit: 4 %}
-        <div class="post-area">
-          <div class="post-creds"><span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span> | <span class="post-author">{{ post.author }}</span></div>
-          <div class="post-title"><a href="{{ post.url | prepend: site.baseurl }}" class="bold">{{ post.title }}</a></div>
-          <div class="post-preview">{{ post.content | strip_html | truncatewords: 25 }} <a href="{{ post.url | prepend: site.baseurl }}" class="post-more">Read More</a></div>
-        </div>
-        {% endfor %}
-      </div>
-    </div>
+      <div class="col-sm-12">
+	      <div class="section-title"><h2>Recent News</h2></div>
+	      <div class="short-blog-list">
+		{% for post in site.posts limit: 4 %}
+		<div class="post-area">
+		  <div class="post-creds"><span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span> | <span class="post-author">{{ post.author }}</span></div>
+		  <div class="post-title"><a href="{{ post.url | prepend: site.baseurl }}" class="bold">{{ post.title }}</a></div>
+		  <div class="post-preview">{{ post.content | strip_html | truncatewords: 25 }} <a href="{{ post.url | prepend: site.baseurl }}" class="post-more">Read More</a></div>
+		</div>
+		{% endfor %}
+	      </div>
+	    </div>
   </div>
 </section>
 <section id="count" class="bg-light-gray">
