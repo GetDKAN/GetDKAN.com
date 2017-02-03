@@ -1047,3 +1047,7 @@ footer .footer-manu ul li a {
 footer .footer-manu ul li a:hover {
   color: #000;
 }
+
+.white-background {
+  background-color: #FFF;
+}
