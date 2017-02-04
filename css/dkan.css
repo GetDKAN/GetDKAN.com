@@ -266,7 +266,7 @@ body #updates .post-title a:link {
 }
 img.partner-logo {
   height: 35px;
-  max-width: 100%;
+  max-width: 90%;
 }
 #partners .section-title {
   margin:0;
@@ -1071,4 +1071,12 @@ section {
 }
 section.figure--section {
   padding: 0;
+}
+.guide {
+	border: 1px solid #ccc;
+	padding-bottom: 100px;
+}
+.align-left {
+  text-align: left;
+  float: left;
 }
