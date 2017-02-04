@@ -177,8 +177,6 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 
 #community {
-  background-color: rgba(19, 127, 197, 0.75);
-  color: #FFF;
   padding: 50px 0;
 }
 #community .section-title h2 {
@@ -212,9 +210,6 @@ font header .navbar-default .navbar-nav li a:hover {
     border-color: #8baaca;
     margin-top: 20px;
 }
-#updates .container {
-  padding: 10px 0 20px;
-}
 #updates .container,
 #partners .container,
 #contact-form .container,
@@ -225,9 +220,6 @@ font header .navbar-default .navbar-nav li a:hover {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     flex-direction: column;
-}
-#count .container {
-  padding: 40px 200px 60px 200px;
 }
 #updates .short-blog-list .post-area {
   padding: 25px 0;
@@ -274,9 +266,13 @@ body #updates .post-title a:link {
 }
 img.partner-logo {
   height: 35px;
+  max-width: 100%;
 }
 #partners .section-title {
   margin:0;
+}
+#count .row {
+  text-align: center;
 }
 #partners h2,
 #updates h2,
@@ -290,9 +286,6 @@ img.partner-logo {
     padding: 20px;
     font-size: 40px;
     text-align: center;
-}
-section#partners {
-  background-color: #fff;
 }
 #portfolio h3.section-subheading {
   padding-bottom: 30px;
@@ -330,7 +323,6 @@ body .post-area {
   padding-top: 30px;
 }
 #portfolio {
-  padding: 10px;
 }
 a.portfolio-link {
   display: block;
@@ -387,6 +379,14 @@ h3.section-subheading  {
 #portfolio .portfolio-item {
     margin: 0 0 15px;
     right: 0;
+}
+#portfolio.bg-white .portfolio-item .portfolio-caption {
+  border: none;
+  padding: 5px;
+  margin: 0;
+}
+#portfolio.bg-white a.portfolio-link {
+  height: 85px;
 }
 #portfolio .portfolio-item .portfolio-caption {
     max-width: 400px;
@@ -1048,6 +1048,27 @@ footer .footer-manu ul li a:hover {
   color: #000;
 }
 
-.white-background {
+.bg-white {
   background-color: #FFF;
+}
+.bg-blue {
+  background-color: rgba(19, 127, 197, 0.75); 
+  color: #FFF;
+}
+#testdrive img {
+  margin: 0 auto;
+}
+#testdrive .test-driver {
+  height: 100px;
+  display: block;
+}
+#testdrive {
+  text-align: center;
+  padding: 40px 0 60px;
+}
+section {
+  padding: 10px 0 60px;
+}
+section.figure--section {
+  padding: 0;
 }
