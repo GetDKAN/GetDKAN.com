@@ -274,11 +274,7 @@ img.partner-logo {
 #count .row {
   text-align: center;
 }
-#partners h2,
-#updates h2,
-#count h2,
-#portfolio h2,
-#service h2 {
+h2 {
     color: #444;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
