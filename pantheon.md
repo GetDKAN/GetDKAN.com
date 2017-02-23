@@ -42,64 +42,88 @@ It is recommended to [install Terminus](https://github.com/pantheon-systems/term
 ## Step by Step Process
 
 
-	1. Create DKAN site using (https://dashboard.getpantheon.com/products/dkan/spinup)
-	2. Update your drush alias files
+### 1. Create DKAN site on Pantheon
 
-	2a) Download your drush alias files 
-	Visit your Pantheon Dashboard (https://dashboard.pantheon.io) and click "Drush Aliases"
-
-	2b) Update your aliases using Terminus (recommended)
-
-	* Authenticate with Terminus
-
-	> terminus auth:login
-
-	If you are doing this for the first time you will need to generate a machine token. Just follow the link provided.
-
-	* Update drush aliases
-
-	> terminus aliases
-
-	3. Change "Connection Mode" to SFTP
-	Go to your dev instance in Pantheon and click "SFTP". This is to get around a bug in Pantheon that won't let you install from the CLI while in Git mode.
-
-	4. Install DKAN
-
-	* Find the alias for your new site
-
-	> drush sa
-
-	You should see a list of aliases including .dev/.test/.prod instances of your site.
-
-	Copy your dev instance.
-
-	* Run installation command
-
-	> drush si @mysitealias.dev dkan -vy
-
-	If you want to specify a root user or password you can add "--account-name" and "--account-pass" arguments. If you don't specify the password you will have to look for it in the CLI output.
-
-	5. Grab a cup of coffee
-
-	The installation process should take about 10 minutes.
-
-	6. Login to your new DKAN site!
-
-	Visit the url on your development instance dashboard in Panteon or type
-
-	> drush @mysitealias.dev uli
+[Create your DKAN site](https://dashboard.getpantheon.com/products/dkan/spinup) using this form. This should only take several minutes.
 
 
+### 2. Update your drush alias files
+Once your site is created you need to update your local drush alias files.
 
-	Follow-up Steps
+#### 2a) Download your drush alias files 
 
-	1. Swith "Connection Mode" back to github
-	2. Move your database and code from dev to test and prod
-	3. Start adding to your DKAN site
-	4. Prepare for launch!
-	5. Visit our slack channel
+Visit your [Pantheon Dashboard](https://dashboard.pantheon.io) and click "Drush Aliases".
+
+#### 2b) Update your aliases using Terminus (recommended)
+
+##### Authenticate with Terminus
+
+```
+> terminus auth:login
+```
+
+If you are doing this for the first time you will need to generate a machine token. Just follow the link provided.
+
+#### Update drush aliases
+
+```
+> terminus aliases
+```
+
+With either method you should be able to type:
+
+```
+> drush sa
+```
+
+see a list of aliases including .dev/.test/.prod instances of your site.
+
+### 3. Change "Connection Mode" to SFTP
+
+Go to your dev instance in Pantheon and click "SFTP". This is to get around a bug in Pantheon that won't let you install from the CLI while in Git mode.
+
+### 4. Install DKAN
+
+Run the installation command:
+
+```
+> drush si @mysitealias.dev dkan -vy
+```
+
+If you want to specify a root user or password you can add "--account-name" and "--account-pass" arguments. If you don't specify the password you will have to look for it in the CLI output.
+
+The installation process should take about 10 minutes.
+
+### 5. Login to your new DKAN site!
+
+Visit the url on your development instance dashboard in Panteon or type
+
+```
+> drush @mysitealias.dev uli
+```
 
 
+## Follow-up Steps
+
+### 1. Switch "Connection Mode" back to git
+
+Go back to your dev instance and switch "Connection mode" back to git.
+
+### 2. Move your database and code from dev to test and prod
+
+See "Deploy to test and live" in [Pantheon docs](https://pantheon.io/docs/get-started/)
+
+### 3. Start adding to your DKAN site
+
+Visit the [DKAN Docs](http://docs.getdkan.com/en/latest/index.html)
+
+### 4. Prepare for launch!
+
+See Pantheon docs on (Going live)[https://pantheon.io/docs/going-live/].
+
+### 5. Visit our slack channel
+
+Visit us at [our slack channel](https://dkansignup.herokuapp.com) and say hello, ask questions, or join the community.
 
 
 
