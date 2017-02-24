@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: markdown
 title: Install DKAN on Pantheon
 permalink: /pantheon/
 ---
