@@ -102,7 +102,6 @@ Visit the url on your development instance dashboard in Panteon or type
 > drush @mysitealias.dev uli
 ```
 
-
 ## Follow-up Steps
 
 ### 1. Switch "Connection Mode" back to git
@@ -115,17 +114,12 @@ See "Deploy to test and live" in [Pantheon docs](https://pantheon.io/docs/get-st
 
 ### 3. Start adding to your DKAN site
 
-Visit the [DKAN Docs](http://docs.getdkan.com/en/latest/index.html)
+Visit the [DKAN Docs](http://docs.getdkan.com/en/latest/index.html) to see how to setup your site.
 
 ### 4. Prepare for launch!
 
-See Pantheon docs on (Going live)[https://pantheon.io/docs/going-live/].
+See Pantheon docs on [Going live](https://pantheon.io/docs/going-live).
 
 ### 5. Visit our slack channel
 
 Visit us at [our slack channel](https://dkansignup.herokuapp.com) and say hello, ask questions, or join the community.
-
-
-
-
-
