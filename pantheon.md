@@ -3,12 +3,17 @@ layout: markdown
 title: Install DKAN on Pantheon
 permalink: /pantheon/
 ---
+With this tutorial you will spin a new DKAN site on [Pantheon](http://getpanthen.com). 
 
-## Why Pantheon
+## Why Pantheon?
+
+Pantheon is the fastest and easiest to maintain way to get up and running with DKAN. Once you've setup an account you can launch your DKAN portal for as little as $25 per month.
 
 ### 1. Automated DKAN updates
 
 DKAN updates are sent right to your development site. You test them safely with no risk. Updates can be merged without coding or using a command line (after initial setup).
+
+![dkan-update](https://cloud.githubusercontent.com/assets/512243/23308560/96fda7da-fa79-11e6-9c75-10a1df088f76.PNG)
 
 ### 2. No-coding or Devops necessary
 
@@ -46,6 +51,10 @@ It is recommended to [install Terminus](https://github.com/pantheon-systems/term
 
 [Create your DKAN site](https://dashboard.getpantheon.com/products/dkan/spinup) using this form. This should only take several minutes.
 
+Add your site name and url:
+
+![dkan-pantheon-1](https://cloud.githubusercontent.com/assets/512243/23308400/03d040a8-fa79-11e6-8176-4d6beac38eec.PNG)
+
 
 ### 2. Update your drush alias files
 Once your site is created you need to update your local drush alias files.
@@ -53,6 +62,8 @@ Once your site is created you need to update your local drush alias files.
 #### 2a) Download your drush alias files 
 
 Visit your [Pantheon Dashboard](https://dashboard.pantheon.io) and click "Drush Aliases".
+
+![dkan-pantheon-3](https://cloud.githubusercontent.com/assets/512243/23308529/7a8cb12c-fa79-11e6-91f8-f0a1854c6099.PNG)
 
 #### 2b) Update your aliases using Terminus (recommended)
 
