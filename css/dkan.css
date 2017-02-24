@@ -274,6 +274,11 @@ h2 {
     font-size: 40px;
     text-align: center;
 }
+#markdown h2 {
+  padding: 20px 0;
+  text-transform: none;
+  text-align: left;
+}
 #portfolio h3.section-subheading {
   padding-bottom: 30px;
 }
