@@ -13,6 +13,7 @@ Pantheon is the fastest and easiest to maintain way to get up and running with D
 
 DKAN updates are sent right to your development site. You test them safely with no risk. Updates can be merged without coding or using a command line (after initial setup).
 
+This image shows the Pantheon dashboard where new updates are applied:
 ![dkan-update](https://cloud.githubusercontent.com/assets/512243/23308560/96fda7da-fa79-11e6-9c75-10a1df088f76.PNG)
 
 ### 2. No-coding or Devops necessary
