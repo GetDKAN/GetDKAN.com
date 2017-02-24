@@ -200,6 +200,7 @@ font header .navbar-default .navbar-nav li a:hover {
     border-color: #8baaca;
     margin-top: 20px;
 }
+#markdown .container,
 #updates .container,
 #partners .container,
 #contact-form .container,
