@@ -279,6 +279,11 @@ h2 {
   text-transform: none;
   text-align: left;
 }
+#markdown img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 #portfolio h3.section-subheading {
   padding-bottom: 30px;
 }
