@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 ## DKAN v1.13 Officially Released
 
