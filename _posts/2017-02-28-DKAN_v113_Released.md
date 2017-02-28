@@ -1,8 +1,9 @@
 ---
 published: true
+layout: post
+author: Andrew Hoppin
+title: DKAN v1.13 Officially Released
 ---
-## DKAN v1.13 Officially Released
-
 We’re excited to announce the official release of [DKAN v1.13](https://github.com/NuCivic/dkan/releases/tag/7.x-1.13), one of our largest and most impactful point releases ever.  
 
 Major improvements include: 
