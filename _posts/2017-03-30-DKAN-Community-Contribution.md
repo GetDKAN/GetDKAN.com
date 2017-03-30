@@ -1,8 +1,9 @@
 ---
 published: true
+layout: post
+author: Andrew Hoppin
+title: Creating better DKAN documentation, as a community
 ---
-## Creating better DKAN documentation, as a community
-
 With the release of DKAN 1.13, the core DKAN team is shifting to a new focus on our fantastic community of adopters and contributors (as well as, of course, supporting a ton of great [new features](http://docs.getdkan.com/en/latest/releases/notes/1.13.html)). While the community has always been a big part of DKAN’s development, the reality is that we haven’t always prioritized getting contributions directly from the global DKAN user community into DKAN itself. 
 
 We want that to change, and after hearing a lot of feedback, we know our community does as well. For that reason, we’re truly prioritizing collaboration and engagement with users and developers from now on. With version 1.13, both the software and its community of adopters have reached a maturity that makes a more open and collaborative approach to development not only possible, but crucial to DKAN’s future.  
