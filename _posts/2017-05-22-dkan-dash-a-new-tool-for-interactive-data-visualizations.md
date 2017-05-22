@@ -47,7 +47,7 @@ The [Drupal module](https://github.com/NuCivic/dkan_dash) provides a _Dashboard_
 
 The modules also provides a browser-based JSON editor to make modifying dashboard configurations easier:
 
-![JSON Editor in DKAN Dash]({{site.baseurl}}/media/Screenshot from 2017-05-18 16-28-18 (1).png)
+![DKAN Dash JSON editor]({{site.baseurl}}/media/dkan-dash-json-editor.png)
 
 ### Custom Implementation Module
 
