@@ -2,6 +2,8 @@
 category: blog
 published: true
 title: 'DKAN Dash: A new tool for interactive data visualizations'
+layout: post
+author: Andrew Hoppin
 ---
 DKAN Dash is a cool new tool that works with DKAN to create multi-faceted data visualizations based on DKAN datasets. Some of the features include:
 
